@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Conhecimentos Gerais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Quiz de Conhecimentos Gerais</h1>
+        <div id="welcomeScreen">
+            <label for="username">Digite seu nome:</label>
+            <input type="text" id="username" placeholder="Seu nome">
+            <button id="startButton">Iniciar Quiz</button>
+        </div>
+        <div id="quizScreen" class="hidden">
+            <h2 id="questionTitle">Pergunta 1</h2>
+            <div id="imageContainer"><img id="questionImage" src="" alt="Imagem da Pergunta"></div>
+            <div id="questionText"></div>
+            <div id="options"></div>
+            <div id="timer">Tempo: <span id="timeLeft">10</span>s</div>
+            <button id="nextButton" class="hidden">Próxima Pergunta</button>
+        </div>
+        <div id="scoreboard">
+            <h2 id="stadiumScore">Placar</h2>
+            <p id="playerNameDisplay">Jogador: <span id="userNameDisplay"></span></p>
+            <p>Pontuação: <span id="currentScore">0</span></p>
+        </div>
+        <div id="resultScreen" class="hidden">
+            <h2>Parabéns, <span id="userNameDisplayResult"></span>!</h2>
+            <p>Sua pontuação final foi: <span id="finalScore"></span> pontos</p>
+            <button id="restartButton">Jogar Novamente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
