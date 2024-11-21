@@ -3,7 +3,7 @@ const questions = [
         question: "Qual é o nome desse quadro?",
         options: ["A Noite Estrelada", "A Ronda Noturna", "Mona Lisa", "O Sono"],
         answer: "A Noite Estrelada",
-        image: "img/noite.jpg"
+        image: "noite.jpg"
     },
     {
         question: "Quem pintou a Mona Lisa?",
