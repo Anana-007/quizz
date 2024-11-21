@@ -40,7 +40,7 @@ const questions = [
         question: "Qual é a principal função de um antivírus?",
         options: ["Aumentar a velocidade do computador", "Proteger contra vírus e malwares", "Armazenar documentos", "Melhorar a qualidade gráfica do sistema"],
         answer: "Proteger contra vírus e malwares", 
-        image: "https://github.com/Anana-007/quizz/blob/main/antivirus.jpg?raw=true.jpg"
+        image: "antivirus.jpg"
 
     },   
     {
